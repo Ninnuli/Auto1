@@ -32,7 +32,7 @@ Open Tests in Souce Labs
 
 Open URL Locally
     #Open Webdriver hosted on Azure Devops
-    Create Webdriver    Chrome    executable_path=D:/a/1/s/node_modules/chromedriver/lib/chromedriver/chromedriver.exe
+    Create Webdriver    Chrome    
     
     # Open Browser on Local Machine
     # Open Browser    https://www.autohero.com/de/search/    chrome
@@ -43,7 +43,7 @@ Open URL AutoHero
 
 User is on Advanced Search Page
     Sleep   5s
-    Click Element                       //button[contains(text(),'Erweiterte Suche')]
+    Click Element                       //button[contains(text(),'Finde dein auto')]
     Wait Until Element Is Visible       //span[contains(text(),'Erstzulassung ab')]
 
 User Select Filter for First registration
